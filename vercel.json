@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "functions": {
+    "pages/api/*.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "images": {
+    "sizes": [256, 512, 1024],
+    "domains": ["replicate.delivery"]
+  }
+} 
